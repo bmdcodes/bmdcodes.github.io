@@ -1,0 +1,106 @@
+/* Base */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+a {
+  color: #1F4E79;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout cards */
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 1200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Navigation */
+.scratch-nav {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.scratch-nav a {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 8px 14px;
+  background-color: #1F4E79;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.scratch-nav a:hover {
+  background-color: #5C9EAD;
+}
+
+/* Gallery */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* Video */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+}
+
+/* Tableau */
+.tableau-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 65%;
+  height: 0;
+  overflow: hidden;
+}
+
+.tableau-container .tableauViz {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer links */
+.footer-links {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 15px;
+}

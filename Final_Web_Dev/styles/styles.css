@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif; /* Modern, clean look */
+    font-size: 16px; /* Slightly bigger for readability */
+    color: #333333; /* Softer than pure black */
+    background-color: #f4f4f4; /* Neutral light gray, modern and subtle */
+    line-height: 1.6; /* Adds space between lines, easier to read */
+    margin: 0;
+    padding: 0;
+}
+li {
+    font-size: 14px;
+    font-style: normal; /* Keep it clean */
+    font-weight: normal;
+    margin-bottom: 5px; /* Adds small spacing between list items */
+}
+
+
+a {
+    color: #1F4E79; /* Deep professional blue */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth hover */
+}
+a:hover {
+    color: #5C9EAD; /* Muted accent on hover */
+    text-decoration: underline;
+}
+a:visited {
+    color: #506B8B; /* Subtle, professional */
+}
+
+
+.resumelistheading {
+    font-weight: bold;
+    font-size: 1.2em; /* Slightly larger for hierarchy */
+    margin-top: 20px;
+    color: #1F4E79; /* Matches primary color */
+}
+
+
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {
+    text-align: justify;
+    margin-bottom: 12px; /* Space between paragraphs */
+}
+
+p {
+    color: #333333;
+}
+
+button, a {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    color: #1F4E79;
+}
+
+li {
+    font-family: 'Verdana', sans-serif;
+}
+
+/* INDEX PAGE HERO SECTION */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #1F4E79;
+}
+
+.hero-text h3 {
+    margin-top: 5px;
+    color: #5C9EAD;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img {
+        max-width: 180px;
+        margin-bottom: 15px;
+    }
+}
